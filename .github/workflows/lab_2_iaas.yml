@@ -35,3 +35,4 @@ jobs:
       with:
         inlineScript: |
           az deployment group create --resource-group $RG_NAME --template-file lab_2/iaas.deploy.json
+
